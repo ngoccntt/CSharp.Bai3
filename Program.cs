@@ -10,13 +10,14 @@ namespace CSharp.Bai3
     {
         static void Main(string[] args)
         {
-            int nSo1, nSo2; nTong = 0;
+            int nSo1, nSo2;
+            int nTong = 0;
             Console.Clear();
             Console.Write("{0}", "Nhap So thu nhat: ");
             nSo1 = Convert.ToInt32(Console.ReadLine());
             Console.Write("Nhap So thu hai: ");
             nSo2 = Convert.ToInt32(Console.ReadLine());
-            int nTong = nSo1 + nSo2;
+            nTong = nSo1 + nSo2;
             Console.WriteLine("Tong cua " + nSo1 + " Va " + nSo2 + " La " + nTong);
             Console.ReadLine();
         }
